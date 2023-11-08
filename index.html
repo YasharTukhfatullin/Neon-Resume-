@@ -6,47 +6,259 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    Responsive Personal Portfolio | Website Design | Yashar Coding
+    Responsive Personal Portfolio Website Design | Yashar Coding
   </title>
   <link rel="stylesheet" href="style.css">
   <!--fontawesome-link-->
   <script src="https://kit.fontawesome.com/d30f293727.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
   <!--Header-Design-->
   <header class="header">
-    <a href="#" class="logo">
-      Portfolio
-    </a>
+    <a href="#" class="logo">Portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
     <nav class="navbar">
-      <a href="" class="active">Home</a>
-      <a href="">About</a>
-      <a href="">Services</a>
-      <a href="">Portfolio</a>
-      <a href="">Contact</a>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
-  <!--Home-Section-Design-->
+  <!--Home-Section-Design--> 
   <section class="home" id="home">
     <div class="home-content">
-      <h3>Hello It's Me</h3>
+      <h3>Hello There It's Me</h3>
       <h1>Yashar Tukhfatullin</h1>
       <h3>And I'm a <span class="multiple-text">Full Stack Developer</span></h3>
-      <p>Something put there</p>
+      <p>Dedicated software developer with a passion for crafting efficient
+        and innovative solutions. Proficient in various programming
+        languages and experienced in developing, testing, and maintaining
+        software applications. Adept at collaborating with cross-functional
+        teams to deliver high-quality, user-centric products. Committed to
+        staying updated with the latest technological advancements and
+        continuously enhancing skills to drive impactful results.
+        <a href=""></a>
+      </p>
       <div class="social-media">
-        <a href="" class="fa-brands fa-facebook-f"></a>
-        <a href="" class="fa-brands fa-x-twitter"></a>
-        <a href="" class="fa-brands fa-instagram"></a>
-        <a href="" class="fa-brands fa-github"></a>
-        <a href="" class="fa-brands fa-linkedin"></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
       </div>
+      <a href="" class="download-button">Download CV</a>
     </div>
     <div class="home-img">
       <img class="img" src="images/yashar picture.jpg">
     </div>
   </section>
-  <!--JS-Link -->
+  <!--About Section-->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/yashar picture.jpg">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Full-Stack Developer</h3>
+      <p>
+        Dedicated software developer with a passion for crafting efficient
+        and innovative solutions. Proficient in various programming
+        languages and experienced in developing, testing, and maintaining
+        software applications. Adept at collaborating with cross-functional
+        teams to deliver high-quality, user-centric products. Committed to
+        staying updated with the latest technological advancements and
+        continuously enhancing skills to drive impactful results.
+      </p>
+      <a href="" class="read-more-button">Read More</a>
+    </div>
+  </section>
+  <!--Section Services Design - Web Development-->
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="fa-sharp fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p>
+          Web development involves creating websites and web applications 
+          for internet or intranet access, encompassing front-end development 
+          for user interface design and experience, back-end development for 
+          server-side functionality, and full-stack development for comprehensive 
+          application handling. It relies on technologies such as HTML, CSS, JavaScript, 
+          Python, Ruby, and PHP, and often utilizes frameworks like React.js, AngularJS, 
+          and Express.js. Content management systems like WordPress and Drupal facilitate 
+          content creation and management. Web development is essential for establishing 
+          an online presence and facilitating global interaction in today's digital landscape.
+        </p>
+        <a href="" class="read-more-button">Read More</a>
+      </div>
+      <!--Section Services Design - Graphic Design-->
+      <div class="services-box">
+        <i class="fa-solid fa-paintbrush"></i>
+        <h3>Graphic Design</h3>
+        <p>
+          Graphic design refers to the use of computer software and digital tools to 
+          create visual content, often for digital media and electronic devices. 
+          It involves using various computer programs to manipulate images, create 
+          digital illustrations, design layouts, and produce visual materials for a 
+          wide range of applications. Graphic design in computer science often involves 
+          the use of specialized software such as Adobe Photoshop, Adobe Illustrator, 
+          CorelDRAW, and other digital design tools to create and manipulate graphics, 
+          images, and visual elements. Computer science has greatly influenced the field 
+          of graphic design, providing designers with advanced tools and techniques to create 
+          complex and innovative visual content for various digital platforms, including websites,
+          mobile applications, video games, and multimedia presentations.
+        </p>
+        <a href="" class="read-more-button">Read More</a>
+      </div>
+      <!--Section Services Design - Digital Marketing-->
+      <div class="services-box">
+        <i class="fa-solid fa-chart-simple"></i>
+        <h3>Digital Marketing</h3>
+        <p>
+          Multi-level marketing (MLM) is a marketing strategy 
+          where salespeople earn income from their sales and the 
+          sales of recruits they bring into the company, forming a downline. 
+          Participants are incentivized to build their own sales force by 
+          recruiting more distributors, creating multiple levels of compensation. 
+          While MLM companies market products or services through a network of distributors, 
+          critics caution that some MLM structures can resemble illegal pyramid schemes, 
+          raising concerns about their legitimacy and ethics. As a result, it is essential 
+          for individuals considering involvement in an MLM company to conduct thorough 
+          research to ensure the business operates ethically and is reputable.
+        </p>
+        <a href="" class="read-more-button">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Section Portfolio Design-->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <div class="portfolio-img">
+          <img src="images/portfolio1.jpg">
+          <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Web design is the process of creating and arranging 
+            visual elements, content, and layout to craft an 
+            engaging and user-friendly experience for websites.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <!---->
+      <div class="portfolio-box">
+        <div class="portfolio-img">
+          <img src="images/portfolio2.jpg">
+          <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Web design is the process of creating and arranging 
+            visual elements, content, and layout to craft an 
+            engaging and user-friendly experience for websites.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <!---->
+      <div class="portfolio-box">
+        <div class="portfolio-img">
+          <img src="images/portfolio3.jpg">
+          <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Web design is the process of creating and arranging 
+            visual elements, content, and layout to craft an 
+            engaging and user-friendly experience for websites.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- #region -->
+      <div class="portfolio-box">
+        <div class="portfolio-img">
+          <img src="images/portfolio4.jpg">
+          <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Web design is the process of creating and arranging 
+            visual elements, content, and layout to craft an 
+            engaging and user-friendly experience for websites.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- #region -->
+      <div class="portfolio-box">
+        <div class="portfolio-img">
+          <img src="images/portfolio5.jpg">
+          <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Web design is the process of creating and arranging 
+            visual elements, content, and layout to craft an 
+            engaging and user-friendly experience for websites.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- #region -->
+      <div class="portfolio-box">
+        <div class="portfolio-img">
+          <img src="images/portfolio6.jpg">
+          <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>
+            Web design is the process of creating and arranging 
+            visual elements, content, and layout to craft an 
+            engaging and user-friendly experience for websites.
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Section-->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
+      <input type="submit" value="Send Message" class="send-message-button">
+    </form>
+  </section>
+
+  <!--Footer Design-->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Yashar Tukhfatullin | All Rights Reserved</p>
+    </div>
+    <div class="footer-icon-top">
+      <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+  <!--All Js-Link-->
+  <!--Scroll Reveal-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--appJs link-->
+  <script src="app.js"></script>
 </body>
 
 </html>
